@@ -128,6 +128,12 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PreBuildEvent>
+      <Command>copy /B foreword.txt+main.txt+afterword.txt temp.cpp</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>type nul &gt; temp.cpp</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
