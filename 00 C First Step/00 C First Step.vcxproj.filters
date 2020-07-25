@@ -5,13 +5,13 @@
     <Text Include="MEMO.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="NewFilter1">
+    <Filter Include="temp">
       <UniqueIdentifier>{6fb87dc5-e135-40d9-a607-9039aeda7cfe}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="temp.cpp">
-      <Filter>NewFilter1</Filter>
+      <Filter>temp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
