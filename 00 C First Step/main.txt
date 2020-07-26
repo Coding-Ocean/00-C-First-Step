@@ -1,7 +1,1 @@
-int i;
-i=0;
-while(i<5)
-{
-	printf("x\n");
-	i++;
-}
+printf("Welcom to Coding Ocean");
