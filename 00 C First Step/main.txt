@@ -1,1 +1,19 @@
-printf("Welcom to Coding Ocean");
+int x;
+x = 48;
+
+printf("AKB");
+printf("%d",x);
+printf("\n");
+
+printf("îTñÿç‚");
+printf("%d",x-2);
+printf("\n");
+
+printf("HKT");
+printf("%d",x);
+printf("\n");
+
+printf("\n");
+printf("AKB%d\n",x);
+printf("îTñÿç‚%d\n",x-2);
+printf("HKT%d\n",x);
