@@ -1,1 +1,1 @@
-printf("Welcome to Coding Ocean");
+printf("Welcome to Coding Ocean!");
